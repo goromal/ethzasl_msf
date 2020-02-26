@@ -45,5 +45,5 @@ add_subdirectory(src/position_pose_msf)
 add_subdirectory(src/spherical_msf)
 endif()
 
-add_executable(test_distort src/test/test_distort.cc)
-target_link_libraries(test_distort pose_distorter)
+#add_executable(test_distort src/test/test_distort.cc)
+#target_link_libraries(test_distort pose_distorter)
